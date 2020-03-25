@@ -20,7 +20,7 @@ const HomePage = () => {
       <p sx={{
         fontFamily: 'body',
         fontWeight: 400
-      }}>The site uses snipcart scripts to enable an easy ecommerce solution which can be spun up in no time. When you click the buy now button on a product snipcart takes over and directs you to a secure payment gateway. Of course there are more features that could be added such as a cart to indicate how many items you have etc.. Check this (add blog post link here) tutorial for a detailed break down of how to build this site. </p>
+      }}>The site uses snipcart scripts to enable an easy ecommerce solution which can be spun up in no time. When you click the buy now button on a product snipcart takes over and directs you to a secure payment gateway. Of course there are more features that could be added such as a cart to indicate how many items you have etc.. Check this (blog post coming soon) tutorial for a detailed break down of how to build this site. </p>
       <AllProductsCell/>
     </MainLayout>
   )
