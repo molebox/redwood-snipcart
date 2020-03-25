@@ -12,7 +12,14 @@ const ContactPage = () => {
       <p sx={{
         fontFamily: 'body',
         fontWeight: 400
-      }}>Show Redwood contact form here...</p>
+      }}>This page would make a great contact form page! <a sx={{
+        fontFamily: 'heading',
+        fontWeight: 400,
+        color: 'text',
+        ":hover": {
+          color: 'accent'
+        }
+      }} href="https://redwoodjs.com/tutorial/everyone-s-favorite-thing-to-build-forms"> Check this guide out to find out how!</a></p>
     </MainLayout>
   )
 }

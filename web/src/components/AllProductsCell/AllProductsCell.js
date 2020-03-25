@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
 import SingleProduct from "../SingleProduct"
 import ProductsContainer from "../ProductsContainer"
 

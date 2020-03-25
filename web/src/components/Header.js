@@ -28,14 +28,14 @@ const Header = () => {
         justifyContent: 'space-evenly',
         width: '15em'
       }}>
-        <Link sx={{
+        {/* <Link sx={{
             fontFamily: 'heading',
             fontWeight: 400,
             color: 'text',
             ":hover": {
               color: 'accent'
             }
-        }} to={routes.store()}>Store</Link>
+        }} to={routes.store()}>Store</Link> */}
         <Link sx={{
             fontFamily: 'heading',
             fontWeight: 400,
