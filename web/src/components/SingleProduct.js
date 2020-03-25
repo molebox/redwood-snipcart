@@ -35,7 +35,7 @@ const SingleProduct = ({id, title, description, price, image, imageAlt}) => {
           price={price}
           description={description}
           image={image}
-          url="http://localhost:8910"
+          url="https://redwood-snipcart.netlify.com/"
           path="/store"
         />
 

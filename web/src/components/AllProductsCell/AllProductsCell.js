@@ -14,9 +14,13 @@ export const QUERY = gql`
   }
 `
 
-export const Loading = () => <div>Loading...</div>
+export const Loading = () => <h2 sx={{
+  fontFamily: 'heading'
+}}>Loading...</h2>
 
-export const Empty = () => <div>Empty</div>
+export const Empty = () => <h2 sx={{
+  fontFamily: 'heading'
+}}>No products have been added yet</h2>
 
 export const Failure = ({ error }) => <div>Error: {error.message}</div>
 
