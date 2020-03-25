@@ -1,14 +1,14 @@
 import { render, cleanup } from '@testing-library/react'
 
-import ProductsPage from './ProductsPage'
+import StorePage from './StorePage'
 
-describe('ProductsPage', () => {
+describe('StorePage', () => {
   afterEach(() => {
     cleanup()
   })
   it('renders successfully', () => {
     expect(() => {
-      render(<ProductsPage />)
+      render(<StorePage />)
     }).not.toThrow()
   })
 })

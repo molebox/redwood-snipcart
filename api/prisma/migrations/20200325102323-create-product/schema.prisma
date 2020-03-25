@@ -1,0 +1,16 @@
+datasource DS {
+  provider = "sqlite"
+  url = "***"
+}
+
+generator photonjs {
+  provider = "prisma-client-js"
+  binaryTargets = env("BINARY_TARGET")
+}
+
+model Product {
+  id      Int @id @default(autoincrement())
+  title   String
+  Price   Int
+  Image   String
+}

@@ -6,6 +6,7 @@ import theme from './theme'
 
 import Routes from 'src/Routes'
 
+import './scaffold.css'
 import './index.css'
 
 ReactDOM.render(

@@ -35,7 +35,7 @@ const Header = () => {
             ":hover": {
               color: 'accent'
             }
-        }} to={routes.products()}>Products</Link>
+        }} to={routes.store()}>Store</Link>
         <Link sx={{
             fontFamily: 'heading',
             fontWeight: 400,

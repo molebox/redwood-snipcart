@@ -1,6 +1,6 @@
 datasource DS {
   provider = "sqlite"
-  url = env("DATABASE_URL")
+  url = "***"
 }
 
 generator photonjs {
@@ -12,7 +12,7 @@ model Product {
   id          Int @id @default(autoincrement())
   title       String
   description String
-  price       String
-  image       String
+  Price       String
+  Image       String
   imageAlt    String
 }

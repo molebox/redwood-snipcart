@@ -1,20 +1,12 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui';
-import MainLayout from "src/layouts/MainLayout/MainLayout"
+import ProductsLayout from 'src/layouts/ProductsLayout'
+import ProductsCell from 'src/components/ProductsCell'
 
-const ProductPage = () => {
+const ProductsPage = () => {
   return (
-    <MainLayout>
-      <h2 sx={{
-        fontFamily: 'body',
-        fontWeight: 400,
-      }}>Products</h2>
-      <p sx={{
-        fontFamily: 'body',
-        fontWeight: 400
-      }}>Show all products here...</p>
-    </MainLayout>
+    <ProductsLayout>
+      <ProductsCell />
+    </ProductsLayout>
   )
 }
 
-export default ProductPage
+export default ProductsPage
